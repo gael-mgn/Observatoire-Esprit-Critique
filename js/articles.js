@@ -5,7 +5,7 @@ const articles = [
         title: "La santé mentale comme outil néolibéral et capitaliste",
         description: "Dans quelle mesure la santé mentale représente un instrument en faveur de la société libérale mondialisée ? Si la dimension psychique de la vie sociale apparaît désormais comme un enjeu d’ordre collectif et qui dépasse le seul caractère psychiatrique, il convient d’en observer l’appropriation et son instrumentalisation dans le cadre du système capitaliste plus global.",
         date: "6 juillet 2025 | Eunice Djunga",
-        categories: ["critique"],
+        categories: ["recherche_analyse"],
     },
     {
         img: "NULL",
@@ -13,7 +13,7 @@ const articles = [
         title: "La Médecine, une Science neutre ?",
         description: "Les sciences médicales n’ont que très récemment commencé à considérer l’importance du genre. En effet, la médecine moderne s’est longtemps basée sur le corps masculin comme norme : les essais cliniques, les protocoles et les diagnostics ont souvent exclu les femmes. De ce fait, la production des connaissances scientifiques, de même que leur application clinique, ont conduit à des inégalités entre les hommes et les femmes.",
         date: "6 juin 2025 | Eunice Djunga",
-        categories: ["critique"],
+        categories: ["recherche_analyse"],
     },
     {
         img: "articles/intersectionnalité penser les oppressions de manière critique/image1.png",
@@ -21,7 +21,7 @@ const articles = [
         title: "Intersectionnalité : penser les oppressions de manière critique",
         description: "L’intersectionnalité, qui se définit comme la « prise en compte du cumul de plusieurs facteurs d’inégalité ou de discrimination, généralement l’assignation à une origine raciale ou ethnique supposée, l’identité sexuelle et le milieu social », est un concept clé du féminisme contemporain.",
         date: "2 mai 2025 | Astrid Lavit d'Hautefort",
-        categories: ["critique"],
+        categories: ["recherche_analyse"],
         alt: "illustration de l'article"
     },
     {
@@ -30,7 +30,7 @@ const articles = [
         title: "Arts et féminisme : focus sur les Guerilla Girls",
         description: "Les Guerilla Girls sont un groupe d’artistes féministes fondé à New York en 1985. Elles sont connues pour leur création et diffusion d’affiches afin de combattre le sexisme et le racisme dans les arts. Leurs masques de gorilles, signatures du groupe, leur permettent de garder l’anonymat.",
         date: "25 avril 2025 | Astrid Lavit d'Hautefort",
-        categories: ["critique"],
+        categories: ["recherche_analyse"],
         alt: "illustration de l'article"
     },
     {
@@ -39,7 +39,7 @@ const articles = [
         title: "La critique féministe, quesaco ?",
         description: "Cette rubrique se veut un espace dédié aux pensées du courant féministe. En son sein, nous explorerons le lien historique entre féminisme et exercice de l’esprit critique, ainsi que la diversité des courants internes au féminisme.",
         date: "15 avril 2025 | Astrid Lavit d'Hautefort",
-        categories: ["critique"],
+        categories: ["recherche_analyse"],
         alt: "illustration de l'article"
     },
     /*
@@ -86,13 +86,13 @@ const articles = [
         date: "29 novembre 2024",
         categories: ["action"],
     },
-    {
+    /*{
         img: "NULL",
         link: "articles/critique/critique.html",
         title: "La Critique",
         description: "Le volet Critique Culturelle de l’OEC offre un espace dédié à l’analyse et à l’expression personnelle autour des productions culturelles contemporaines et classiques. En abordant des œuvres littéraires, cinématographiques, théâtrales, artistiques, et autres.",
         date: "27 octobre 2024",
-        categories: ["critique"],
+        categories: ["recherche_analyse"],
     },
     {
         img: "articles/recherche/img.jpg",
@@ -118,7 +118,7 @@ const articles = [
         date: "25 octobre 2024",
         categories: ["action"],
         alt: "illustration de l'article"
-    }
+    }*/
 ];
 
 

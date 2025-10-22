@@ -17,15 +17,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         else if (author.categories.includes("action") && actions < 2) {
             actions+=1;
-            actions_container.innerHTML += addArticle(author, "article-horizontal");
+            //actions_container.innerHTML += addArticle(author, "article-horizontal");
+            actions_container.innerHTML += addArticle(author, "featured-article");
         }
         else if (author.categories.includes("recherche_analyse") && recherches < 2) {
             recherches+=1;
-            recherches_et_analyses_container.innerHTML += addArticle(author, "article-horizontal");
+            //recherches_et_analyses_container.innerHTML += addArticle(author, "article-horizontal");
+            recherches_et_analyses_container.innerHTML += addArticle(author, "featured-article");
         }
         else if (author.categories.includes("critique") && critiques < 2) {
             critiques+=1;
-            critiques_container.innerHTML += addArticle(author, "article-horizontal");
+            //critiques_container.innerHTML += addArticle(author, "article-horizontal");
+            critiques_container.innerHTML += addArticle(author, "featured-article");
         }
     }
 });

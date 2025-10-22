@@ -1,5 +1,13 @@
 const articles = [
     {
+        img: "articles/guide pratique pour détecter les vidéos générées par l'IA/img.jpg",
+        link: "articles/guide pratique pour détecter les vidéos générées par l'IA/guide pratique pour détecter les vidéos générées par l'IA.html",
+        title: "Guide Pratique pour Détecter les Images Générées par l'IA",
+        description: "Ce guide pratique vous aide à repérer facilement les vidéos générées par l'IA, en analysant les détails visuels, contextuels et techniques pour lutter contre la désinformation.",
+        date: "22 octobre 2025",
+        categories: ["action"],
+    },
+    {
         img: "NULL",
         link: "articles/la santé mentale comme outil néolibéral et capitaliste/la santé mentale comme outil néolibéral et capitaliste.html",
         title: "La santé mentale comme outil néolibéral et capitaliste",
@@ -53,7 +61,8 @@ const articles = [
         alt: "illustration de l'article"
     },*/
     {
-        img: "articles/comprendre la chaîne de propagation d'une fake news/1.jpeg",
+        /*img: "articles/comprendre la chaîne de propagation d'une fake news/1.jpeg",*/
+        img: "NULL",
         link: "articles/comprendre la chaîne de propagation d'une fake news/comprendre la chaîne de propagation d'une fake news.html",
         title: "Comprendre la chaîne de propagation d'une fake news",
         description: "Les fausses informations, communément appelées « fake news », prolifèrent à une vitesse impressionnante grâce aux réseaux sociaux et leur capacité à toucher des millions de personnes enseulement quelques clics. Pour comprendre comment une fake news se propage et devient virale, il est essentiel de retracer son parcours, de sa création à sa diffusion massive.",
@@ -61,8 +70,17 @@ const articles = [
         categories: ["recherche_analyse"],
         alt: "illustration de l'article"
     },
+        {
+        img: "articles/guide pratique pour détecter les images générées par l'IA/img.jpg",
+        link: "articles/guide pratique pour détecter les images générées par l'IA/guide pratique pour détecter les images générées par l'IA.html",
+        title: "Dangers et Identification des Images Générées par IA : Guide Pratique",
+        description: "L’essor fulgurant des générateurs d’images fondés sur l’intelligence artificielle (IA) tels que DALL·E, Midjourney ou Stable Diffusion bouleverse notre rapport à la réalité visuelle. Capables de produire en quelques secondes des photographies, portraits ou scènes d’un réalisme saisissant, ces outils ouvrent des perspectives créatives inédites mais soulèvent également des risques majeurs pour l’information, la vie privée et la démocratie.",
+        date: "20 septembre 2025",
+        categories: ["action"],
+    },
     {
-        img: "articles/une veille pour lutter contre la désinformation/1.jpeg",
+        /*img: "articles/une veille pour lutter contre la désinformation/1.jpeg",*/
+        img: "NULL",
         link: "articles/une veille pour lutter contre la désinformation/une veille pour lutter contre la désinformation.html",
         title: "Démystifier l’Info : Une veille pour lutter contre la désinformation",
         description: "Explorez notre veille d’information dédiée à la lutte contre la désinformation : un espace où journalistes, chercheurs, et experts analysent les fausses informations et les dernières tendances en matière de fact-checking. Suivez les acteurs en première ligne pour une meilleure compréhension de l’actualité et des outils de vérification.",
@@ -78,14 +96,7 @@ const articles = [
         date: "28 octobre 2024",
         categories: ["recherche_analyse"],
     },
-     {
-        img: "articles/guide pratique pour détecter les images générées par l'IA/img.jpg",
-        link: "articles/guide pratique pour détecter les images générées par l'IA/guide pratique pour détecter les images générées par l'IA.html",
-        title: "Guide Pratique pour Détecter les Images Générées par l'IA",
-        description: "Ce guide pratique vous aide à repérer facilement les images générées par l'IA, en analysant les détails visuels, contextuels et techniques pour lutter contre la désinformation.",
-        date: "29 novembre 2024",
-        categories: ["action"],
-    },
+ 
     /*{
         img: "NULL",
         link: "articles/critique/critique.html",
@@ -155,7 +166,8 @@ function fillSection(category, id, n=-1, additionalPath = "") {
         const article = articles[i];
         if ((article.categories.includes(category) || category == "") && (n==-1 || i2 < n)) {
             i2+=1
-            container.innerHTML += addArticle(article, "article-horizontal", additionalPath);
+            //container.innerHTML += addArticle(article, "article-horizontal", additionalPath);
+            container.innerHTML += addArticle(article, "featured-article", additionalPath);
         }
     }
 }
@@ -171,7 +183,8 @@ function fillColumn(category, id, n=-1, additionalPath = "") {
                  container1.innerHTML += addArticle(article, "featured-article", additionalPath);
             }
             else {
-                container2.innerHTML += addArticle(article, "article-horizontal", additionalPath);
+                //container2.innerHTML += addArticle(article, "article-horizontal", additionalPath);
+                container2.innerHTML += addArticle(article, "featured-article", additionalPath);
             }
             i2+=1;
         }

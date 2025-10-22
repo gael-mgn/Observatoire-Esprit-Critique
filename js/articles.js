@@ -9,6 +9,14 @@ const articles = [
     },
     {
         img: "NULL",
+        link: "articles/esprit critique et kinésithérapie/esprit critique et kinésithérapie.html",
+        title: "[Entretien] Quand la remise en question devient une force : l’esprit critique en kinésithérapie",
+        description: "Dans cet entretien, Manale El Ouardi revient sur le rôle central de l’esprit critique dans la pratique kinésithérapique. Elle montre comment la remise en question, la recherche scientifique et l’éthique professionnelle s’entrelacent pour garantir des soins fondés sur des preuves et une réelle évolution de la profession.",
+        date: "22 octobre 2025 | Manale El Ouardi",
+        categories: ["recherche_analyse"],
+    },
+    {
+        img: "NULL",
         link: "articles/la santé mentale comme outil néolibéral et capitaliste/la santé mentale comme outil néolibéral et capitaliste.html",
         title: "La santé mentale comme outil néolibéral et capitaliste",
         description: "Dans quelle mesure la santé mentale représente un instrument en faveur de la société libérale mondialisée ? Si la dimension psychique de la vie sociale apparaît désormais comme un enjeu d’ordre collectif et qui dépasse le seul caractère psychiatrique, il convient d’en observer l’appropriation et son instrumentalisation dans le cadre du système capitaliste plus global.",
